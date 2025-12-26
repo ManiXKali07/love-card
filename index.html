@@ -10,22 +10,14 @@
 
 <body>
 
-<audio id="bgMusic" loop>
+<audio id="bgMusic" loop autoplay>
   <source src="music.mp3" type="audio/mpeg">
 </audio>
 
-<!-- LOCK SCREEN -->
-<div id="lockScreen">
-  <h1>🔒 Enter the Secret</h1>
-  <input type="password" id="codeInput" placeholder="Our secret...">
-  <button onclick="unlock()">Unlock ❤️</button>
-  <p id="error"></p>
-</div>
-
 <!-- MAIN SCENE -->
-<div id="scene" class="hidden">
+<div id="scene">
   <div class="book">
-    
+
     <!-- PAGE 1 -->
     <div class="page page1">
       <div class="handwriting-box">
@@ -56,3 +48,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
