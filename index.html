@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Bangaram ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- LOCK SCREEN -->
+<div id="lockScreen">
+  <h1>🔒 Enter the Secret</h1>
+  <input type="password" id="codeInput" placeholder="Our secret...">
+  <button onclick="unlock()">Unlock ❤️</button>
+  <p id="error"></p>
+</div>
+
+<!-- MAIN SCENE -->
+<div id="scene" class="hidden">
+  <div class="book">
+    
+    <!-- PAGE 1 -->
+    <div class="page page1">
+      <div class="handwriting-box">
+        <p id="handText">
+          My Bangaram,<br><br>
+          From the first moment I saw you,
+          my heart chose you without hesitation.<br><br>
+
+          Through every smile, every tear,
+          every memory of 2025,
+          you became my forever.<br><br>
+
+          I promise to walk with you,
+          grow with you,
+          and love you endlessly.
+        </p>
+      </div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="page page2">
+      <h1 class="bangaram">Love You Bangaram ❤️</h1>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
